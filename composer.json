@@ -1,0 +1,28 @@
+{
+    "name": "gustavo/google-auth",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Borges",
+            "email": "gustavob68@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source//"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "league/oauth2-google": "4.0.*",
+        "league/oauth2-facebook": "2.0.*",
+        "league/oauth2-linkedin": "5.1.*"
+    }
+}
